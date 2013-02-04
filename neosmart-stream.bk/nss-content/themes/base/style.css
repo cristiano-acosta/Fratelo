@@ -1,0 +1,280 @@
+/******************************************************************************
+ * NSS Preview CSS
+ ******************************************************************************/
+ 
+	#nss-preview{
+		background-color:#E7EBF2;}
+		
+	#nss-preview-container{
+		max-width:760px;
+		margin:0 auto;}
+		
+	#nss-preview-container h1{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:120px;
+		line-height:1.4em;
+		margin:0;
+		color:#9ca2ad;
+		font-weight:bold;}
+
+
+/******************************************************************************
+ * Your css
+ ******************************************************************************/
+ 
+	#nss{
+		margin:10px;
+		position:relative;
+		font-family:Arial, Helvetica, sans-serif;
+		color:#000;
+		margin:0;
+		padding:0;
+	}
+
+	
+/******************************************************************************
+ * Colors
+ ******************************************************************************/
+
+	.nss-item{
+		background-color:#FFF;
+		border:1px solid #ddd;
+	}
+	.nss-item a{
+		color:#3B5998;
+	}
+	.nss-created, .nss-facebook-comment-created, .nss-facebook-description, .nss-facebook-count-comments, .nss-facebook-count-likes, .nss-facebook-name{
+		color:#666;	
+	}
+
+/******************************************************************************
+ * INFO
+ ******************************************************************************/	
+
+	.nss-info, .nss-error{
+		background-color:#ffffe0;
+		color:#555;
+		padding:5px 10px;
+		font-size:13px;
+		border-bottom:1px solid #d8d8a4;
+	}
+	.nss-error{
+		background-color:#c00;
+		color:#FFFFFF;}
+		
+	
+/******************************************************************************
+ * Base
+ ******************************************************************************/
+	 
+	.nss-item{
+		font-size:13px;
+		padding:10px;
+		margin:10px 0 10px 0;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px; 
+	}
+	.nss-item a{
+		text-decoration:none;
+	}
+	.nss-item a:hover{
+		text-decoration:underline;	
+	}		
+	.nss-author-avatar{
+		font-weight:bold;
+		font-size:16px;
+		float:left;
+		display:block;
+		margin-right:10px;
+	}
+	.nss-author-avatar img{
+		border:0;	
+	}
+	.nss-head{
+		border-bottom:1px solid #ddd;
+	}
+	.nss-body{
+	}
+	.nss-author-name{
+		font-weight:bold;
+		font-size:16px;
+		display:-moz-inline-stack;
+		display:inline-block;
+	}
+	.nss-created{
+		clear:right;
+		font-size:11px;
+		display:block;
+	}
+	.nss-content{
+		margin:0;
+	}
+	
+/* Comments */
+	
+	.nss-actions{
+		
+	}
+	.nss-comment-form{
+		background-color:#EDEFF4;
+		margin:2px 0;
+		padding:5px;	
+	}
+	.nss-comment-form-textarea{
+		border:1px solid #999;
+		width:300px;
+		height:20px;
+		resize:vertical;
+	}
+	.nss-comment-form-submit{
+		margin-left:3px;
+		font-size:11px;
+	}
+	.nss-comment-form-error{
+		color:#990000;
+		font-size:11px;
+		padding:5px;	
+	}
+	
+/* User */
+	
+	.nss-user{
+		background:#D7FFF0;
+		margin:10px;
+		padding:10px;	
+		font-size:11px;
+		display:none;
+	}
+	.nss-user .nss-content{
+		margin-top:5px;	
+	}
+	.nss-user .nss-content a{
+		margin-right:5px;
+	}
+
+	
+/******************************************************************************
+ * Facebook
+ ******************************************************************************/
+	
+	.nss-facebook{
+		background:url(facebook.png) no-repeat right top #FFF;
+	}
+	.nss-facebook-content{
+	
+	}
+	.nss-facebook-message{
+		margin:10px 0;
+	}  
+	.nss-facebook-picture{
+		border:0;
+	}
+	.nss-facebook-caption{
+		margin:5px 0;
+	}
+	.nss-facebook-story{
+		margin:5px 0;
+	}
+	.nss-facebook-description{
+		font-size:11px;
+		margin:10px 0;
+		display:block;
+	}
+	.nss-facebook-name{
+		font-weight:bold;
+		word-break:break-all;
+	}
+	.nss-facebook-media-name{
+		font-weight:bold;
+	}
+	.nss-facebook-video{
+		margin:10px 0;
+		border:0;
+	}
+	.nss-facebook-comments{
+	}
+	.nss-facebook-comment, .nss-facebook-count-comments, .nss-facebook-count-likes{
+		clear:left;
+		background-color:#EDEFF4;
+		margin:2px 0;
+		padding:5px;
+	}
+	.nss-facebook-comment-head{
+		float:left;
+	}
+	.nss-facebook-comment-avatar img{
+		width:32px;
+		height:32px;
+	}
+	.nss-facebook-comment-body{
+		margin-left:37px;
+	}
+	.nss-facebook-comment-name{
+		margin-right:5px;
+		font-weight:bold;
+	}
+	.nss-facebook-comment-created{
+		display:block;	
+		margin-top:5px;
+		font-size:11px;
+	}
+	.nss-facebook-like{
+		font-size:11px;
+		margin-left:5px;
+	}
+	.nss-facebook-count-likes{
+		font-size:11px;
+		margin-top:10px;
+	}
+	.nss-facebook-count-comments{
+		font-size:11px;	
+	}
+	
+/******************************************************************************
+ * Twitter
+ ******************************************************************************/
+	
+	.nss-twitter{
+		background:url(twitter.png) no-repeat right top #FFF;
+	}
+	.nss-twitter .nss-content{
+		margin:10px 0;
+	}
+	
+/******************************************************************************
+ * Custom
+ ******************************************************************************/
+	
+	.nss-nss{
+
+	}
+	.nss-nss .nss-content{
+		margin:10px 0;
+	}
+
+/******************************************************************************
+ * Extras
+ ******************************************************************************/
+ 	
+	.nss-admin-link{
+		clear:both;
+		margin:0 5px 5px 5px;}
+	
+	.nss-admin-link a{
+		font-size:10px;
+		color:#190d03;
+		text-decoration:none;}
+	
+	#nss-ad{
+		font-size:11px;
+		text-align:center;}
+	
+	.nss-clean, .nss-head:after, .nss-facebook-content:after, .nss-facebook-comment:after{
+		content:'.';
+		display:block;
+		visibility:hidden;
+		height:0;
+		clear:both;
+		line-height:0;
+	}

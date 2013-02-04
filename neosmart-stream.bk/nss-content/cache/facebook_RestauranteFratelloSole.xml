@@ -1,0 +1,135 @@
+<?xml version='1.0'?>
+<nss>
+<item>
+	<channel>facebook</channel>
+	<id>184164178287556_468698493167455</id>
+	<created>2012-12-10T15:27:13+0000</created>
+	<updated>2012-12-10T15:27:13+0000</updated>
+	<content></content>
+	<author>
+		<id>184164178287556</id>
+		<name>Fratello Restaurante</name>
+		<link>http://www.facebook.com/184164178287556</link>
+		<avatar>https://graph.facebook.com/184164178287556/picture</avatar>
+	</author>
+	<location></location>
+	<extras>
+		<facebook>
+			<type>photo</type>
+			<source></source>
+			<caption></caption>
+			<description></description>
+			<picture><![CDATA[https://fbcdn-photos-a.akamaihd.net/hphotos-ak-ash4/486957_468698463167458_614538396_s.png]]></picture>
+			<link><![CDATA[http://www.facebook.com/photo.php?fbid=468698463167458&amp;set=a.411407798896525.89530.184164178287556&amp;type=1&amp;relevant_count=1]]></link>
+			<name></name>
+			<message><![CDATA[Sobremesa???????]]></message>
+			<privacy>
+				<description></description>
+				<value></value>
+			</privacy>
+			<count>
+				<comments>0</comments>
+				<likes>0</likes>
+				<shares>0</shares>
+			</count>
+			<story></story>
+			<icon>https://s-static.ak.facebook.com/rsrc.php/v2/yz/r/StEh3RhPvjk.gif</icon>
+			<object_id>468698463167458</object_id>
+			<application>
+				<name></name>
+				<id></id>
+			</application>
+			<comments>
+			</comments>
+		</facebook>
+	</extras>
+</item>
+<item>
+	<channel>facebook</channel>
+	<id>184164178287556_468675253169779</id>
+	<created>2012-12-10T14:04:12+0000</created>
+	<updated>2012-12-10T14:04:12+0000</updated>
+	<content></content>
+	<author>
+		<id>184164178287556</id>
+		<name>Fratello Restaurante</name>
+		<link>http://www.facebook.com/184164178287556</link>
+		<avatar>https://graph.facebook.com/184164178287556/picture</avatar>
+	</author>
+	<location></location>
+	<extras>
+		<facebook>
+			<type>photo</type>
+			<source></source>
+			<caption></caption>
+			<description></description>
+			<picture><![CDATA[https://fbcdn-photos-a.akamaihd.net/hphotos-ak-snc7/297878_468675233169781_1524346412_s.jpg]]></picture>
+			<link><![CDATA[http://www.facebook.com/photo.php?fbid=468675233169781&amp;set=a.411407798896525.89530.184164178287556&amp;type=1&amp;relevant_count=1]]></link>
+			<name></name>
+			<message><![CDATA[Nada melhor do que iniciar a semana deliciando-se no buffet executivo da Fratello Restaurante, preparamos um cardápio especial para você, bom apetite!!!!<br/><br/>Risoto de bacalhau.<br/><br/>Tortei de moranga ao sugo<br/><br/>Couve flor gratinada com gorgonzola.<br/><br/>Abobrinha ao pesto.<br/><br/>Frango grelhado ao molho mediterrâneo.<br/><br/>Paleta suína  ao molho de vinho e cogumelos <br/><br/>Arroz.<br/><br/>Feijão.]]></message>
+			<privacy>
+				<description></description>
+				<value></value>
+			</privacy>
+			<count>
+				<comments>0</comments>
+				<likes>0</likes>
+				<shares>0</shares>
+			</count>
+			<story></story>
+			<icon>https://s-static.ak.facebook.com/rsrc.php/v2/yz/r/StEh3RhPvjk.gif</icon>
+			<object_id>468675233169781</object_id>
+			<application>
+				<name></name>
+				<id></id>
+			</application>
+			<comments>
+			</comments>
+		</facebook>
+	</extras>
+</item>
+<item>
+	<channel>facebook</channel>
+	<id>184164178287556_468653493171955</id>
+	<created>2012-12-10T12:38:50+0000</created>
+	<updated>2012-12-10T12:38:50+0000</updated>
+	<content></content>
+	<author>
+		<id>184164178287556</id>
+		<name>Fratello Restaurante</name>
+		<link>http://www.facebook.com/184164178287556</link>
+		<avatar>https://graph.facebook.com/184164178287556/picture</avatar>
+	</author>
+	<location></location>
+	<extras>
+		<facebook>
+			<type>photo</type>
+			<source></source>
+			<caption></caption>
+			<description></description>
+			<picture><![CDATA[https://fbcdn-photos-a.akamaihd.net/hphotos-ak-ash3/556711_468653476505290_1713801115_s.png]]></picture>
+			<link><![CDATA[http://www.facebook.com/photo.php?fbid=468653476505290&amp;set=a.411407798896525.89530.184164178287556&amp;type=1&amp;relevant_count=1]]></link>
+			<name></name>
+			<message></message>
+			<privacy>
+				<description></description>
+				<value></value>
+			</privacy>
+			<count>
+				<comments>0</comments>
+				<likes>0</likes>
+				<shares>0</shares>
+			</count>
+			<story><![CDATA[Fratello Restaurante added a new photo.]]></story>
+			<icon>https://s-static.ak.facebook.com/rsrc.php/v2/yz/r/StEh3RhPvjk.gif</icon>
+			<object_id>468653476505290</object_id>
+			<application>
+				<name></name>
+				<id></id>
+			</application>
+			<comments>
+			</comments>
+		</facebook>
+	</extras>
+</item>
+</nss>

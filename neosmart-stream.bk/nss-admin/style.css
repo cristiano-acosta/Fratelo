@@ -1,0 +1,314 @@
+/******************************************************************************
+ * nss admin css
+ ******************************************************************************/
+ 
+	body{
+		font-family:Arial, Helvetica, sans-serif;
+		background-color:#eee;
+		color:#000;
+		margin:0;
+		padding:0;
+	}
+	
+	#nss-admin{
+		min-width:490px;}
+	
+	.center{
+		margin:0 auto;
+		max-width:960px;
+		min-width:450px;
+		padding:0 20px;}
+	
+	h1{
+		margin:0;
+		padding:0;}
+	
+	h2{
+		margin:40px 10px 10px 10px;
+		font-size:32px;
+		font-weight:normal;
+		color:#333;
+		clear:both;
+		padding:0;
+		text-shadow: 1px 1px 0px #ffffff;}
+		
+	h3{
+		margin:0;
+		font-size:14px;
+		color:#eee;
+		background-color:#190D03;
+		text-transform:uppercase;
+		padding:7px 10px;}
+		
+	p{
+		font-size:13px;
+		line-height:1.4em;}
+		
+	a{
+		color: #FF7800;}
+		
+	strong, b{
+		font-weight:bold;}
+	
+		
+/*******************************************************************
+ * Header
+ ******************************************************************/
+		
+	.nss-admin-header{
+		margin:0 0 20px 0;	
+		background-color:#190D03;
+		color:#FFFFFF;
+		padding:10px 10px 5px 10px;
+		min-height:55px;
+		min-width:450px;}
+		
+	.nss-admin-header h1{
+		float:left;
+		margin-right:40px;}
+	
+	.nss-admin-menu{
+		margin-bottom:20px;
+		display:block;
+		min-height:16px;
+		float:left;
+		margin:15px 0 5px 0;}
+		
+	.nss-admin-menu a.button{
+		background-color:#FF7800;
+		border:1px solid #FF9438;
+		font-size:12px;
+		color:#190D03;
+		float:left;
+		display:block;
+		text-decoration:none;
+		text-shadow:none;
+		margin-bottom:10px;}
+		
+	.nss-admin-menu a.button:hover{
+		color:#FFFFFF;}
+		
+	.nss-admin-logout{
+		float:right;
+		border:1px solid #fff;}
+	
+/*******************************************************************
+ * Form
+ ******************************************************************/
+ 
+	.nss-admin-form, .nss-admin-container{
+		background-color:#ddd;
+		margin:10px 0 40px 0;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius:5px;
+		min-width:350px;
+		padding-bottom:5px;
+		padding-top:5px;
+		box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, .5);
+		border:1px solid #eee;
+		border-top:1px solid #bbb;
+		position:relative;}
+		
+	.nss-admin-container.error{
+		border:1px solid #c00;
+		background-color:#FFC6C6;
+		color:#111;
+		border:1px solid #F22;
+		margin-bottom:10px;}
+		
+	.nss-admin-container.error b{
+		color:#c00;}
+		
+	.todo{
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius:5px;
+		padding:5px 10px;
+		clear:both;
+		margin: 5px 10px;
+		line-height: 1.3em;
+		font-size: 16px;
+		background-color:#190D03;
+		color:#FFFFFF;}
+		
+	.nss-admin-container .todo b{
+		color: #FF7800;}
+		
+	.nss-admin-container.warning{
+		margin-bottom:10px;}
+		
+	
+	.nss-admin-form-row, .row{
+		margin:5px 10px;
+		line-height:1.3em;
+		padding:3px;
+		font-size:12px;	
+	}
+	.hl{
+		border-top:1px solid #bbb;
+		padding-top:10px;
+		margin-top:10px;}
+		
+	#nss-admin label{
+		display:block;
+		width:150px;
+		float:left;
+		font-family:Georgia,Times,Serif;
+		color:#666;
+		margin-right:10px;
+		font-size:14px;
+	}
+	input.text, select{
+		width:400px;
+		font-size:12px;
+		border:1px solid #CCC;
+		padding:4px;
+		max-width:97%;
+	}
+	select{
+	
+	}
+	.row span.info{
+		display:inline-block;
+		padding:4px;}
+	
+	.nss-admin-channel{
+		border:1px solid #190D03;
+		margin:0 10px 10px 10px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius:5px;
+		background-color:#eee;
+		box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, .3);}
+		
+	.row .error{
+		color:#cc0000;
+		font-size:12px;
+		display:inline-block;}
+		
+	.field-area{
+		float:left;}
+		
+	.field-info{
+		margin:5px 0;
+		color:#777;
+		font-style:italic;}
+
+		
+/* Buttons */
+
+	.button, .submit{
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		border-radius: 30px;
+		font-size:13px;
+		text-transform:none;
+		padding:5px 10px;
+		cursor:pointer;
+		border:1px solid #bbb;
+		background-color:#eee;
+		text-decoration:none;
+		margin-right:10px;
+		display:inline-block;
+		line-height:1em;
+		text-shadow: 1px 1px 0px #ffffff;
+		color:#777;}
+		
+	.button:hover{
+		text-shadow:none;
+		color:#000000;}
+		
+	.cancel:hover{
+		color:#c00;}
+		
+	.submit{
+		color:#190D03;
+		font-weight:bold;
+		color:#eee;
+		margin-right:10px;
+		text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+		background-color:#FF7800;
+		border:1px solid #FF7800;}
+		
+	.submit:hover{
+		color:#fff;
+		text-shadow: 1px 1px 0px rgba(0,0,0,.3);}
+		
+	.nss-admin-remove{
+		font-size:11px;
+		border:1px solid #bbb;}
+		
+	.nss-admin-test{
+		font-size:11px;}
+		
+	.nss-admin-remove:hover{
+		background-color:#c00;
+		border:1px solid #c00;
+		color:#FFFFFF;}
+		
+	.nss-admin-add-channel{
+		color:#FFFFFF;
+		background-color:#009900;
+		border:1px solid #009900;
+		text-shadow:none; }
+		
+	.nss-admin-add-channel:hover{
+		color:#FFFFFF;
+		background-color:#009900;
+		border:1px solid #009900;}
+		
+	.atc-button{
+		background-color:#190D03;
+		color:#ddd;
+		text-shadow:none;}
+		
+	.atc-button:hover{
+		color:#FFFFFF;}
+		
+	#add-channel-error{
+		margin-right:10px;
+		margin-left:10px;
+		display:none;}
+		
+	.new-channel-container{
+		display:none;}
+		
+
+		
+/*************************************************************
+ * Extras
+ *************************************************************/
+
+	.nss-clean, .nss-admin-header:after, .nss-admin-form-row:after, .row:after, #nss-admin-menu:after,
+	.todo:after{
+		content:'.';
+		display:block;
+		visibility:hidden;
+		height:0;
+		clear:both;
+		line-height:0;
+	}
+	
+	.warning{
+		background-color: #FFFBCC;
+	    border-color: #E6DB55;
+    	color: #555555;}
+		
+	.active{
+		background-color:#AEFFAE;}
+	
+	.inactive{
+		background-color:#FFC4C4;
+		color:#530000;}
+		
+	.status{
+		display:inline-block;
+		padding:3px 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;}
+		
+	.loading{
+		background:url(nss-loader.gif) no-repeat 0 0;
+		padding-left:20px;}

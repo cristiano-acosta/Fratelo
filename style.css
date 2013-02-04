@@ -1,0 +1,384 @@
+/*
+Theme Name: EZ Comunicação Fratello 2.1.2
+Theme URI: http://fratellosole.com.br/
+Author: Cristiano EZ Comunicação
+Author URI: http://ezcomunicacao.com.br/
+Description: Thema atual
+Version: 2.1.2
+HTML5 Boilerplate ** What follows is the result of much research on cross-browser styling.  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,* Kroc Camen, and the H5BP dev community and team. ** Detailed information about this CSS: h5bp.com/css * ==|== normalize ==|== */
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+[hidden] { display: none; }
+/* =============================================================================
+   Base
+   ========================================================================== */
+/* 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units || 2. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g  */
+html, button, input, select, textarea { font-family: 'yanone_kaffeesatz_regularRg','Ubuntu', sans-serif; color:rgb(255, 255, 255); }
+body { margin: 0; font-size:1.10em; line-height: 1.4;font-family: 'yanone_kaffeesatz_regularRg', 'Ubuntu', sans-serif; color:rgb(255, 255, 255); letter-spacing:1px; text-align:justify; }
+/* Remove text-shadow in selection highlight: h5bp.com/i ! These selection declarations have to be separate. Customize the background color to match your design. */
+::-moz-selection { background: #b3d4fc; text-shadow: none; -webkit-transition: all 500ms ease; -moz-transition: all 500ms ease; -ms-transition: all 500ms ease; -o-transition: all 500ms ease; transition: all 500ms ease;  }
+::selection { background: #b3d4fc; text-shadow: none; -webkit-transition: all 500ms ease; -moz-transition: all 500ms ease; -ms-transition: all 500ms ease; -o-transition: all 500ms ease; transition: all 500ms ease; }
+/* =============================================================================
+   Links
+   ========================================================================== */
+a { color:rgb(255, 255, 255); text-decoration:none; }
+a:visited { color:rgb(255, 255, 255); text-decoration:none; }
+a:hover { -webkit-transition: all 500ms ease; -moz-transition: all 500ms ease; -ms-transition: all 500ms ease; -o-transition: all 500ms ease; transition: all 500ms ease; color:rgb(255, 255, 255);text-decoration:none;  }
+a:focus { text-decoration:none; }
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h  */
+a:hover, a:active { outline: 0;text-decoration:none; }
+/* =============================================================================
+   Typography
+   ========================================================================== */
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { display: block; height: 1px; border: none 0; margin: 0; padding: 0; border-left:0 none; border-top:0 none; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+/* Redeclare monospace font family: h5bp.com/j  */
+pre, code, kbd, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+/* Improve readability of pre-formatted text */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+/* Position subscript and superscript content without affecting line-height: h5bp.com/k */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+/* =============================================================================
+   Lists
+   ========================================================================== */
+ul, ol { margin:0; padding: 0; }
+dd { margin: 0; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+/* 1. Improve image quality when scaled in IE7: h5bp.com/d || 2. Remove the gap between images and borders on image containers: h5bp.com/i/440  */
+img { border: 0; vertical-align: middle; -ms-interpolation-mode: bicubic; }
+/* Correct overflow not hidden in IE9  */
+svg:not(:root) { overflow: hidden; }
+/* =============================================================================
+   Figures
+   ========================================================================== */
+figure { margin: 0; }
+/* =============================================================================
+   Forms
+   ========================================================================== */
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+/* Indicate that 'label' will shift focus to the associated form element  */
+label { cursor: pointer; }
+/* 1. Correct color not inheriting in IE6/7/8/9 || 2. Correct alignment displayed oddly in IE6/7 */
+legend { border: 0; padding: 0; white-space: normal;  *margin-left: -7px; }
+/* 1. Correct font-size not inheriting in all browsers || 2. Remove margins in FF3/4 S5 Chrome ||  3. Define consistent vertical alignment display in all browsers */
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline;  *vertical-align: middle; }
+/* 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet) */
+button, input { line-height: normal; }
+/* 1. Display hand cursor for clickable form elements || 2. Allow styling of clickable form elements in iOS || 3. Correct inner spacing displayed oddly in IE7 (doesn't effect IE6) */
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; *overflow: visible; }
+/* Re-set default cursor for disabled elements  */
+button[disabled], input[disabled] { cursor: default; }
+/* Consistent box sizing and appearance  */
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0;  *width: 13px; *height: 13px; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
+/* Remove inner padding and border in FF3/4: h5bp.com/l */
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+/* 1. Remove default vertical scrollbar in IE6/7/8/9 || 2. Allow only vertical resizing  */
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+/* =============================================================================
+   Tables
+   ========================================================================== */
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+/* =============================================================================
+   Chrome Frame Prompt
+   ========================================================================== */
+.chromeframe { margin: 0.2em 0; background: #ccc; color: #000; padding: 0.2em 0; }
+/* ==|== primary styles =====================================================
+   Author: Cristiano Acosta
+   ========================================================================== */
+/* Header */
+header#header { position: relative; top: 0px; background-color:#471414;   overflow:hidden; min-height:338px; background-position:center top; background-repeat:no-repeat; }
+.header-home { height:750px; }
+.header-fratello { background-image:url("img/header/fratello.jpg"); }
+.header-cardapio { background-image:url("img/header/cardapio.jpg"); }
+.header-delivery { background-image:url("img/header/delivery.jpg"); }
+.header-espaco { background-image:url("img/header/espaco.jpg"); }
+.header-contato { background-image:url("img/header/contato.jpg"); }
+
+  /* Navigation Bar */
+  .navigation { height:80px; position: relative; z-index:170; margin: 17% 0 0;  }
+    .navigation .brand { margin:-114px 0 0 0 ; padding:0; width:300px;  }
+    .brand img { width:90%;  }
+    .navigation .nav { margin:0; height:80px;  }
+    .navigation .nav li { line-height:80px; height:80px;  }
+    .navbar .nav > li > a { color:#D7D7D7;  float: none;  line-height: 80px; height:80px;  padding:0 10px;  text-decoration:none; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+    .navbar .nav > li > a:hover { background:url("img/bg.nav.a.active.png") repeat; color:#D7D7D7; }
+    .navigation .nav .active > a, .navbar .nav .active > a:hover { background:url("img/bg.nav.a.active.png") repeat; color:#D7D7D7; }
+    .navbar .nav > li > a:focus, .navbar .nav > li > a:hover { color:#D7D7D7; background:url("img/bg.nav.a.active.png") repeat;}
+  /* Background de ambientes do header => background-slides.php */
+  #slide { position: absolute; z-index:70; top: 0px; width:100%; height:750px; overflow:hidden; }
+    #slide ul { margin: 0; padding: 0; list-style: none; width: 100%; height:750px; overflow: hidden; }
+    #slide ul img { position: absolute; min-height:900px; width: 100%; left:0; top: 00px; }
+    .img_visible { position: relative; float: left; }
+    /*! http://responsiveslides.com v1.32 by @viljamis */
+    .rslides { position: relative; list-style: none; overflow: hidden; width: 100%; padding: 0; margin: 0; }
+    .rslides li { position: absolute; display: none; width: 100%; left: 0; top: 0; }
+    .rslides li:first-child { position: relative; display: block; float: left; }
+    .rslides img { display: block; height: 100%; float: left; width: 100%; border: 0; }
+    #slide figure { position: absolute; bottom: 0; }
+    #slide figure img { position: relative; float: right; }
+/*= Divisor =*/
+hr.shadow { background:url("img/bg.page-child-home.png") no-repeat center top; height:20px; margin-top:50px; margin-bottom:30px; }
+/*= Sections =*/
+section#page,section#category { background:url("img/texture.png") repeat top; position:relative; top:0; z-index:80; width:100%; padding:2% 0; height:auto !important;}
+section#home { position:absolute; top: 5%; width:100%; padding:2% 0; height:auto !important; z-index:90; }
+/*=  is_page('cardapio')  =*/
+  .cardapio { }
+  #cardapio-article { padding:3% 0 0 0; }
+
+    /*= Cardapio Menu =*/
+    #myTab { color: rgb(255,255,255); }
+      #myTab li { display: block; float: left; width:8.5%; padding:1px; opacity: 0.7; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)"; 	filter: alpha(opacity=70); margin:1px;  }
+      #myTab li:hover { -webkit-transition: all 500ms ease; -moz-transition: all 500ms ease; -ms-transition: all 500ms ease; -o-transition: all 500ms ease; transition: all 500ms ease; background-color: inherit !important; opacity: 0.9; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; 	filter: alpha(opacity=90); width: 8.5%;    }
+      #myTab li.active { -webkit-transition: all 500ms ease; -moz-transition: all 500ms ease; -ms-transition: all 500ms ease; -o-transition: all 500ms ease; transition: all 500ms ease; background-color: inherit !important; opacity: 0.9; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)"; 	filter: alpha(opacity=90); width:8.6%;    }
+      #myTab li.active:hover { -webkit-transition: all 500ms ease; -moz-transition: all 500ms ease; -ms-transition: all 500ms ease; -o-transition: all 500ms ease; transition: all 500ms ease; background-color: inherit !important; opacity: 1.0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; 	filter: alpha(opacity=100); width: 8.6%;    }
+      #myTab h4 {  }
+      #myTab div.menu_title { border:1px solid #D78484; margin-top: -10%; width: 100%; text-align: center; border-radius:10px;  position:relative; z-index:110; /* Old browsers */background: #242729; /* FF3.6+ */background: -moz-linear-gradient(top, #242729 0%, #3e4041 100%); /* Chrome,Safari4+ */background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#242729), color-stop(100%,#3e4041));/* Chrome10+,Safari5.1+ */background: -webkit-linear-gradient(top, #242729 0%,#3e4041 100%);/* Opera 11.10+ */background: -o-linear-gradient(top, #242729 0%,#3e4041 100%);/* IE10+ */background: -ms-linear-gradient(top, #242729 0%,#3e4041 100%);/* W3C */background: linear-gradient(to bottom, #242729 0%,#3e4041 100%);height:40px; padding:0; display:table; }
+      #myTab h3 { font-size:16px; line-height:normal; margin:0; display:table-cell; vertical-align:middle; }
+      #myTab li img { width:90%; margin:0 0 0 5px; }
+    /*= Cardapio Conteudo =*/
+    #myTabContent { padding:30px 0 0 0; overflow:hidden; }
+      #myTabContent article { margin-bottom:35px; padding: 0 0 1px 0; }
+        /*= Items do Cardapio =*/
+        .category_title  { text-align:center; }
+        .category_title h2 { line-height:normal; margin:0; }
+        .category_title,.tag_title { margin-bottom:5px; }
+        .tag_title h3 { line-height:normal; margin:0 0 5px 0; }
+        /*= Items do Cardapio =*/
+        #myTabContent .price-img { display: block; float: left; margin:0 5px 0 13px;  width: 50%; }
+        .image_styled { float: left; display:block;}
+        .image_styled img { width:100%; display:block; margin: 0;}
+        .image_frame { border:none; }
+        /*= preço =*/
+        .price_overlay { border: 0 solid #FF00FF; width:100%; height: 28px; margin:-23px 0 0 0; position: relative; float:left; z-index: 120;  }
+        .price_left { background: url("img/price_left.png") repeat-x scroll 0 0 transparent; height:40px; width:13px; }
+        .item_price { background: url("img/price_middle.png") repeat-x scroll 0 0 transparent; height:40px; max-width:80%; overflow:hidden; }
+        .item_price_dig { color: #FFFFFF; font-size:10px; line-height:11px; font-weight: 100; margin: 6px 0 0 5px; }
+        .item_price_dig p { display:block; float:left; margin:8px 5px 0 0;   font-size:10px; line-height:11px;}
+        .item_price_dig h4 { display:block; float:left; margin:12px 5px 0 0;   font-size:12px; line-height:11px;}
+        .item_price_dig .preco { margin:12px 5px 0 0; }
+        .price_right { background: url("img/price_right.png") repeat scroll 0 0 transparent; height: 40px;width:13px;}
+        /*= Conteudo =*/
+        #myTabContent .menu-entry-info { width:40%; overflow:hidden; margin:0 0 0 5px;}
+        h3.menu_title { margin-bottom: 4px; line-height:18px; }
+        .menu-entry-content { clear: both; float: left; overflow: hidden; }
+        .menu-entry-content p { font-size:13.5px; line-height:14px; min-height:50px; height:auto !important;  height:50px; text-align:left; }
+        .hps-slide .menu-entry-content p { margin-bottom: 5px; }
+        /*= categoria =*/
+        .category_overlay { float:left; width:90%;  }
+   /*= if (is_front_page()) =*/
+   #home { }
+    #home .delivery { text-align:center; margin-top:10px; margin-bottom:30px; }
+    #home .delivery img { width:50%; }
+    #home aside {background-color:rgb(114,49,37); opacity:0.8; filter: alpha(opacity=80);  /* Firefox v1.0+ */-moz-border-radius:10px ;/* Safari v3.0+ and by Chrome v0.2+ */-webkit-border-radius:10px ;/* Firefox v4.0+ , Safari v5.0+ , Chrome v4.0+ , Opera v10.5+  and by IE v9.0+ */border-radius:10px ; }
+    #home aside div {opacity:1.0; filter: alpha(opacity=100); margin:0 auto; }
+    #home aside #fotos { width:90%; }
+    #home aside #sociais-networks { width:90%; }
+    #home aside #fotos h4 { text-align:right; }
+    #home aside div.nss-stream {width:90%; margin:0  auto 0 auto; /* Firefox v1.0+ */-moz-border-radius:10px ;/* Safari v3.0+ and by Chrome v0.2+ */-webkit-border-radius:10px ;/* Firefox v4.0+ , Safari v5.0+ , Chrome v4.0+ , Opera v10.5+  and by IE v9.0+ */border-radius:10px ; border:1px solid #ffffff; clear:both; overflow:hidden; padding:10px; }
+    #home aside ul.social-icons { list-style:none; width:100%; margin:23px auto; text-align:center; }
+    #home aside ul.social-icons li { display:inline-block; margin:0 2px; }
+    #home aside ul.social-icons img { width: 90%; }
+
+   /*= is_page('delivery') =*/
+  .bairros div {float:left; margin:0 30px 0 0; }
+  .post_thumbnail { text-align:center; }
+  .post_thumbnail img { clear:both; margin:0; width:85%; }
+  /*=  is_page('espaco')  =*/
+  .espaco { }
+  #espaco-article { padding:3% 0 1% 0; margin-bottom:5px; }
+    #mask { }
+    #mask img.change { position:absolute; }
+  #espaco-kids { padding:1% 0 1% 0; }
+  /* is_page('delivery') */
+  .delivery {}
+  /* is_page('te-fa-bene') */
+  .te-fa-bene {}
+	.nss-stream-wrap { width: 100%; }
+  article[id*="nss-item-"] { margin:0 0 8px; clear:both; display:table; float:none; text-overflow:auto; }
+		#time-stamp { margin:0; display:table; position:relative; padding:1px; float:left; vertical-align:middle; width:90%; }
+		  #time-stamp h1 {font-size: 20px; line-height:25px; margin:0; }
+		  #time-stamp h1 span { clear:both; color:window; font-size: 90%; }
+     #content { font-size: 70%; color:#FFFFFF; padding:1px; float: left; width:90%; }
+		  #content img { float: right; margin: 0 0 0 10px; }
+    #comments {}
+      #comments .comments_bg_top { background:url("img/bg.comments.png") no-repeat #fff; height:15px; padding:0 10px 0 10px; width:90%; }
+      #comments .comments_bg { background:#92122d; padding:10px; min-height:75px; width:90%; }
+      #comments figure img { float:left; margin:0 15px 0 0; }
+      #comments figure { }
+      #comments h4 { font-size:15px; line-height:normal; margin:0;  }
+      #comments p {  }
+      #comments h5 { text-align:right; line-height:normal; clear:both; }
+    #promotions ul { list-style:none;  }
+    #promotions li { height:167px; overflow:hidden; margin-bottom:20px; }
+
+    #promotions ul .description  { background:url("img/bg.banner.description.png") repeat-x; z-index:1004; height:50px; padding:6px 0 0; width:100%; text-align:center; }
+      #promotions ul .description h1  { font-family:arial; font-weight:bold; letter-spacing:1px; word-spacing:0px; line-height:1; margin:0; text-align:center; font-size:21px; }
+      #promotions ul .description p  { line-height:normal; margin:5px 0 5px 0; text-align:center; font-size:14px; }
+  /* Page == contato */
+  .contato { }
+  article#contato-article {  }
+  article#contato-article .form form.wpcf7-form {  }
+  article#contato-article .form form.wpcf7-form p { margin:0 20px 0 0; padding:0; float:left; }
+  article#contato-article .form form.wpcf7-form p.span12 { margin-bottom:10px; }
+  article#contato-article .form form.wpcf7-form p input { padding:4px 0 0 50px; font-size:14px; width:78%; }
+  article#contato-article .form form.wpcf7-form p label { margin:5px; padding:0; color:#000; position:absolute; z-index:90; }
+  article#contato-article .form form.wpcf7-form p input[type="submit"] { padding:4px 6px; text-align:center; width:100%;  }
+  article#contato-article .form form.wpcf7-form textarea#your-message { margin:0;width:73%; color:#000000; padding:4px 0 0 61px; font-size:14px; height:145px;}
+
+  .ajax-loader { display:none; }
+
+
+
+/* Footer */
+footer#footer { background:url("img/texture.png") repeat scroll left top transparent;  padding:1% 0 1% 0;  position:relative; z-index:130; min-height:100px; color:rgb(255, 255, 255); }
+  footer#footer article { }
+  footer#footer article .delivery-footer {  }
+  footer#footer #newsletter { padding:10px 0 0 0; height:170px; }
+  footer#footer #newsletter h2 { padding:0; margin:0;}
+  footer#footer #newsletter p { margin:0; padding:0; text-align:left; width:100%; clear:both; }
+  footer#footer #newsletter input { border:1px solid #ffffff; padding:3px 8px 3px 0; background:none transparent; color:#ffffff; float:left; margin:0 0 10px 3px; position:relative; z-index:1; }
+  footer#footer #newsletter label { padding:0; float:left; margin:0; width:12%; }
+  footer#footer #newsletter input[type='submit'] { border:0 none; background:none transparent; color:#ffffff; }
+  footer#footer #newsletter span.wpcf7-not-valid-tip { background: rgb(177, 8, 10);background: rgba(177, 8, 10, 0.7);/* FF3+,Saf3+,Opera 10.10+,Chrome,IE9*/zoom: 1;  border: 1px solid #B1080A;  box-shadow: 1px 1px 5px #000000;font-size: 12px;  left: -210px;  opacity: 0.7;filter: alpha(opacity=70);  padding: 3px;  position: absolute;  top: 82%;  z-index:100; -moz-box-shadow: 1px 1px 5px #000000;/*FF 3.5+*/ -webkit-box-shadow: 1px 1px 5px #000000;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/}
+  footer#footer #newsletter div.wpcf7-validation-errors {  color: #F9B5B5; font-size:14px; }
+
+  footer#footer article .delivery-footer .col { float:left; }
+  footer#footer article .delivery-footer .col h1 { font-size:40px; margin:0; padding:0; line-height:1; }
+  footer#footer article .delivery-footer .col p { font-size:25px; margin:10px 0 0 0; padding:0; line-height:1; }
+  footer#footer article .delivery-footer img { float:left; margin:0 0 0 25px; }
+
+  footer#footer article address { padding:10px 0 0; margin-bottom:0; }
+  footer#footer article address p { padding:0; margin:0; line-height:25px; }
+  footer#footer article .ezcomunicacao { line-height:20px; height:20px; padding:0 0 0; margin:3px 0 0; }
+
+  /* EZ Rodapé */
+  #ezcomunicacao { background: none repeat scroll 0 0 transparent; font-size: 50%; height: 30px; line-height:80px; opacity: 0.4; width:100%; }
+    #ezcomunicacao a { background: url("img/ez.ico.fw.png") no-repeat scroll 0 0 transparent; display: block; float:right; height: 30px; width:30px; filter: alpha(opacity=60); opacity:0.6; }
+    #ezcomunicacao a:hover { -webkit-transition: all 100ms ease; -moz-transition: all 500ms ease; -ms-transition: all 100ms ease; -o-transition: all 100ms ease; transition: all 100ms ease; background: url("img/ez.ico.hover.fw.png") no-repeat scroll 0 0 transparent; display: block; float: right; height: 30px; width: 30px; filter: alpha(opacity=70); opacity:0.7; }
+
+
+/* ==|== media queries ======================================================
+   EXAMPLE Media Query for Responsive Design.
+   This example overrides the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+/* Landscape phones and down */
+    @media (max-width: 480px) {
+      body{ padding:0; font-size:1.10em; letter-spacing:1px; text-align:justify; }
+      .navigation { height:160px; background:url("img/bg.nav.navbar.r.png")  repeat-x;  position: relative; z-index:170; margin: 17% 0 0;  }
+      .navigation .brand { margin:-115px 0 30px 0; padding:0; text-align:center; }
+      .navigation .nav {   height: 80px;   margin: -25px 0 0; }
+      .navigation .nav li { height: 40px; line-height: 40px;}
+      .navbar .nav > li > a { float: none; height: 40px; line-height: 40px; padding:0 10px; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); color:#D7D7D7; }
+      #banners { height:76px; }
+      #banners ul img { margin:0; width:100%; }
+      #banners #prev, #next { float:left; width:5%; }
+      #banners .box-shadow { width:90%; float:left; height:200px; }
+      #banners ul .description h1 { font-size:20px; }
+      #banners ul .description p { }
+      #page-child-home { height:290px; padding-top:4%; top:0; }
+      #socialnetworks { margin-top: -600px; }
+      #minicontact { margin-top: 300px;}
+      #localizacao  {margin-top: 700px;}
+       .header-home { height:750px; }
+
+      /* Background de ambientes do header => background-slides.php */
+	    #home .delivery img {	 width: auto !important;float: right;   }
+	    /* Background de ambientes do header => background-slides.php */
+      #slide { position: absolute; z-index:70; top: 0px; width:100%; height:750px; overflow:hidden; }
+        #slide ul { margin: 0; padding: 0; list-style: none; width: 100%; height:750px; overflow: hidden; }
+        #slide ul img { position: absolute; min-height:900px; width: 100%; left:0; top: 00px; }
+        .img_visible { position: relative; float: left; }
+        /*! http://responsiveslides.com v1.32 by @viljamis */
+        .rslides { position: relative; list-style: none; overflow: hidden; width: 100%; padding: 0; margin: 0; }
+        .rslides li { position: absolute; display: none; width: 100%; left: 0; top: 0; }
+        .rslides li:first-child { position: relative; display: block; float: left; }
+        .rslides img { display: block; height: 100%; float: left; width: 100%; border: 0; }
+        #slide figure { position: absolute; bottom: 0; }
+        #slide figure img { position: relative; float: right; }
+      #page-child-home { height:335px; }
+      /*= Cardapio Menu =*/
+      #myTab { color: rgb(255,255,255); }
+        #myTab li {width:21%; padding:1px; margin:4px;  }
+        #myTab li:hover { width: 21%;   }
+        #myTab li.active { width:21%;   }
+        #myTab li.active:hover {  width: 21%;    }
+    }
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 768px) {
+	    .navigation { height: 80px; margin: 17% 0 0;  position: relative; z-index: 170;    }
+	    #home .delivery img {	 width: auto !important;   }
+      .navbar .nav > li > a { padding:0 10px; }
+    }
+
+    /* Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width:1024px) {
+      .navbar .nav > li > a { float: none; padding:0 10px; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); color:#D7D7D7; }
+      /*= Cardapio Menu =*/
+      #myTab { color: rgb(255,255,255); }
+        #myTab li {width:10%; padding:1px; margin:4px;  }
+        #myTab li:hover { width: 10%;   }
+        #myTab li.active { width:10%;   }
+        #myTab li.active:hover {  width: 10%;    }
+      }
+    /* Large desktop */
+    @media (min-width: 1200px) {
+    }
+
+
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+/* Image replacement  */
+.ir { border: 0; font: 0/0 a; text-shadow: none; color: transparent; background-color: transparent; }
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p  */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+/* Hide visually and from screenreaders, but maintain layout  */
+.invisible { visibility: hidden; }
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix {  *zoom: 1; }
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+* { background: transparent !important; color: #000 !important; /* Black prints faster: h5bp.com/s */ box-shadow: none !important; text-shadow: none !important; }
+a,  a:visited { text-decoration: underline; }
+a[href]:after { content: " (" attr(href) ")"; }
+abbr[title]:after { content: " (" attr(title) ")"; }
+/* Don't show links for images, or javascript/internal links */
+.ir a:after,  a[href^="javascript:"]:after,  a[href^="#"]:after { content: ""; }
+pre,  blockquote { border: 1px solid #999; page-break-inside: avoid; }
+thead { display: table-header-group; /* h5bp.com/t */ }
+tr,  img { page-break-inside: avoid; }
+img { max-width: 100% !important; }
+@page { margin: 0.5cm; }
+p,  h2,  h3 { orphans: 3; widows: 3; }
+h2,  h3 { page-break-after: avoid; }
+}
+article#contato-article .form form.wpcf7-form p.half input[type="submit"] { margin-left:152px; width:100px;
+  }

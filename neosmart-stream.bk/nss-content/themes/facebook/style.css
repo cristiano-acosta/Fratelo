@@ -1,0 +1,94 @@
+/******************************************************************************
+ * NSS Preview CSS Fratellho Theme
+ ******************************************************************************/
+#nss-preview { }
+#nss-preview-container { }
+#nss-preview-container h1 {  }
+/******************************************************************************
+ * Your css
+ ******************************************************************************/
+
+#nss { }
+/******************************************************************************
+ * Colors
+ ******************************************************************************/
+
+.nss-item { }
+.nss-item a { }
+.nss-created, .nss-facebook-comment-created, .nss-facebook-description, .nss-facebook-count-comments, .nss-facebook-count-likes, .nss-facebook-name {  }
+/******************************************************************************
+ * INFO
+ ******************************************************************************/	
+
+.nss-info, .nss-error { }
+.nss-error {  }
+/******************************************************************************
+ * Base
+ ******************************************************************************/
+	 
+.nss-item {   }
+.nss-item a {   }
+.nss-item a:hover {  }
+.nss-author-avatar {  }
+.nss-author-avatar img {   }
+.nss-head {   }
+.nss-body { }
+.nss-author-name {   }
+.nss-created {   }
+.nss-content {   }
+/* Comments */
+	
+.nss-actions { }
+.nss-comment-form {   }
+.nss-comment-form-textarea {  }
+.nss-comment-form-submit { }
+.nss-comment-form-error {  }
+/* User */
+	
+.nss-user {  }
+.nss-user .nss-content {  }
+.nss-user .nss-content a {  }
+/******************************************************************************
+ * Facebook
+ ******************************************************************************/
+	
+.nss-facebook { }
+.nss-facebook-content { }
+.nss-facebook-message { }
+.nss-facebook-picture {   }
+.nss-facebook-caption { }
+.nss-facebook-story {  }
+.nss-facebook-description {   }
+.nss-facebook-name {  }
+.nss-facebook-media-name {   }
+.nss-facebook-video {   }
+.nss-facebook-comments { }
+.nss-facebook-comment, .nss-facebook-count-comments, .nss-facebook-count-likes {  }
+.nss-facebook-comment-head {  }
+.nss-facebook-comment-avatar img {  }
+.nss-facebook-comment-body {  }
+.nss-facebook-comment-name {   }
+.nss-facebook-comment-created {  }
+.nss-facebook-like {   }
+.nss-facebook-count-likes {   }
+.nss-facebook-count-comments {  }
+/******************************************************************************
+ * Twitter
+ ******************************************************************************/
+	
+.nss-twitter {   }
+.nss-twitter .nss-content {  }
+/******************************************************************************
+ * Custom
+ ******************************************************************************/
+	
+.nss-nss { }
+.nss-nss .nss-content {  }
+/******************************************************************************
+ * Extras
+ ******************************************************************************/
+ 	
+.nss-admin-link {  }
+.nss-admin-link a {  }
+#nss-ad {  }
+.nss-clean, .nss-head:after, .nss-facebook-content:after, .nss-facebook-comment:after { content: '.'; display: block; visibility: hidden; height: 0; clear: both; line-height: 0; }

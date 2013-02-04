@@ -1,0 +1,27 @@
+@font-face { font-family: 'PalaceScriptMT'; src: url('palscri.eot'); src: url('palscri.eot?#iefix') format('embedded-opentype'),  url('palscri.woff') format('woff'),  url('palscri.ttf') format('truetype'),  url('palscri.svg#palscri') format('svg'); font-weight: normal; font-style: normal; }
+
+@font-face {
+    font-family: 'yanone_kaffeesatz_boldregular';
+    src: url('yanonekaffeesatz-bold.eot');
+    src: url('yanonekaffeesatz-bold.eot?#iefix') format('embedded-opentype'),
+         url('yanonekaffeesatz-bold.woff') format('woff'),
+         url('yanonekaffeesatz-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'yanone_kaffeesatz_regularRg';
+    src: url('yanonekaffeesatz-regular.eot');
+    src: url('yanonekaffeesatz-regular.eot?#iefix') format('embedded-opentype'),
+         url('yanonekaffeesatz-regular.woff') format('woff'),
+         url('yanonekaffeesatz-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
